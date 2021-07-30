@@ -167,8 +167,8 @@ if __name__ == '__main__':
 
     PORT = '5000'
 
-    api_url = os.getenv('TONE_ANALYZER_SERVICE_API')
-
+   # api_url = os.getenv('TONE_ANALYZER_SERVICE_API')
+    api_url = "https://api.us-south.tone-analyzer.watson.cloud.ibm.com/instances/f95c0143-879c-470a-b800-5b729b7ce4ef"
     if not api_url:
         log.error("TONE_ANALYZER_SERVICE_API not set")
 
